@@ -582,7 +582,7 @@ bool AppInit2()
            if (nCombineThreshold > MAX_COMBINE_AMOUNT)   
                nCombineThreshold = MAX_COMBINE_AMOUNT;   
        }   
-       printf("combinethreshold set to %"PRId64"\n",nCombineThreshold);   
+       printf("combinethreshold set to %" PRId64 "\n",nCombineThreshold);   
     }   
 
     int nSocksVersion = GetArg("-socks", 5);
